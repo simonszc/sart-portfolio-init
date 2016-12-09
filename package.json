@@ -1,0 +1,27 @@
+{
+  "name": "dec-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "DEBUG=sart* mocha test/**-tests.js",
+    "start": "DEBUG=sart* node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "debug": "^2.2.0",
+    "mocha": "^3.2.0",
+    "morgan": "^1.7.0",
+    "superagent": "^3.1.0"
+  }
+}
